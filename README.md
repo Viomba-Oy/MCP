@@ -15,36 +15,48 @@ Viomba's predictions are powered by neural models trained on Tobii infrared gaze
 ### Attention & Analytics
 | Tool | Description |
 |---|---|
-| `viomba_creative_prediction` | Predict attention KPIs for an ad creative |
+| `viomba_creative_prediction` | Predict attention KPIs (seen %, view time) for a display ad |
 | `viomba_heatmap_prediction` | Predict gaze heatmap for a display ad |
-| `viomba_focus_prediction` | Predict visual attention heatmaps for a video ad |
-| `viomba_ad_slicer` | Slice a ad creative into timed PNG screenshots |
+| `viomba_ad_slicer` | Slice an ad creative into timed PNG screenshots |
 
-### Creative Generation
+### Creative
 | Tool | Description |
 |---|---|
 | `viomba_generate_creative` | Start an ad creative generation job |
 | `viomba_refine_creative` | Iterate on a previously generated creative |
 | `viomba_check_generation` | Poll status and retrieve results |
-| `viomba_get_creative` | Fetch a creative with full HTML |
-| `viomba_list_generations` | List your generation requests |
+| `viomba_get_creative` | Fetch a generated creative with full HTML |
+| `viomba_list_generations` | List your creative-generation requests |
+| `viomba_cancel_generation` | Cancel a pending or running creative job |
+| `viomba_generate_site_map` | Generate an attention-weighted site map for a set of domains |
 
-### Video Analysis
+### Video
 | Tool | Description |
 |---|---|
 | `viomba_analyze_video` | Analyze a video for attention, audio/video events, and AVS sync score |
+| `viomba_focus_prediction` | Predict visual attention heatmaps for a video ad |
+| `viomba_request_upload` | Get a one-time browser upload URL for sharing a local video file |
+| `viomba_check_upload` | Poll for upload completion; returns a token usable as `videoUrl` |
 
-### Site Intelligence
+### Meta Marketing API
+Connect a Meta credential in the Viomba dashboard, then drive your real ad library from MCP.
+
 | Tool | Description |
 |---|---|
-| `viomba_generate_site_map` | Generate an attention-weighted site map for a set of domains |
+| `viomba_list_meta_credentials` | List Meta credentials connected to your Viomba account |
+| `viomba_set_meta_credential` | Activate a credential for this MCP session |
+| `viomba_list_meta_ad_accounts` | List Meta ad accounts accessible to the active credential |
+| `viomba_list_meta_ad_creatives` | List ad creatives within a Meta ad account |
+| `viomba_get_meta_creative_prediction` | Trigger or poll attention prediction for a Meta ad creative |
 
 ### Usage & Account
 | Tool | Description |
 |---|---|
-| `viomba_my_usage` | Usage stats for your connected client |
+| `viomba_my_usage` | Usage stats and credit balance for your connected client |
 | `viomba_history` | Paginated tool-call history |
+| `viomba_request_detail` | Inspect a single historical tool call (request + result) |
 | `viomba_tool_breakdown` | Per-tool call counts and latency |
+| `viomba_fetch_image` | Fetch an image attachment returned by a previous tool call |
 
 ---
 
