@@ -2,11 +2,11 @@
 
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-blue)](https://modelcontextprotocol.io)
 
-Viomba MCP brings attention prediction, creative generation, and video analysis into your AI workflow. Give your assistant a creative, a URL, or a video — and get back real attention data, heatmaps, and scored outputs without leaving your client.
+Viomba MCP brings high precision human attention prediction, attention optimized creative generation (for display and social), and video attention analysis into your AI workflow. Give your assistant a creative, a URL, or a video — and get back real attention data, heatmaps, and scored outputs without leaving your client.
 
 **Built on real gaze data**
 
-Viomba's predictions are powered by neural models trained on Tobii infrared gaze fixation data, collected from real users in real browsing environments across markets. This means *seen* and *viewtime* metrics reflect genuine fixations — not loose viewability proxies. The distinction matters: Tobii infrared separates true fixations from saccades at the measurement level, which is why Viomba numbers often differ from other attention tools.
+Viomba's predictions are powered by foundational neural models trained on Tobii infrared gaze fixation data, collected from real users in real browsing environments across markets. This means *seen* and *viewtime* metrics reflect genuine ad-on-placement level fixations — not loose viewability proxies. The distinction matters: Tobii infrared separates true fixations from saccades at the measurement level, which is why Viomba numbers often differ from other attention proxy based tools.
 
 ---
 
